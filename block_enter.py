@@ -299,6 +299,7 @@ class EnterBlock:
                 self.datein_entry.delete(0, END)
                 self.dateout_entry.delete(0, END)
                 self.rent_entry.delete(0, END)
+                self.enter = False
                 self.dashboard.update_df()
 
 

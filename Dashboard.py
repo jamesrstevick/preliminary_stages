@@ -3,7 +3,6 @@ import _thread
 import csv
 import os
 import sys
-import serial
 
 from tkinter import *
 from tkinter import messagebox
