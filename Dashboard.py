@@ -32,20 +32,6 @@ class Dashboard_GUI(Tk):
         self.topright_frame = Frame(self)
         self.topright_frame.grid(row=0, column=1, sticky= N + W, padx=5, pady=5)
 
-        # self.bottom_frame = Frame(self)
-        # self.bottom_frame.grid(row=1, column=0, sticky=W, padx=5, pady=5)
-
-        # filename = ''
-
-        # self.running = False
-        # self.data = []
-
-        # self.port_found = []
-
-        # self.all_sensors = []
-        # self.all_connected_sensors = []
-        # self.n_connected_sensors = 0
-
 
         # Enter Frame
         self.enter_frame = LabelFrame(self.topleft_frame, text="Reservation Spreadsheet")
@@ -76,9 +62,6 @@ class Dashboard_GUI(Tk):
         self.availability_frame.grid(row=3, column=0, sticky=N +
                             S + W + E, padx=4, pady=5)
         self.o = AvailabilityBlock(self.availability_frame, self)
-
-
-
 
 
     # dashboard.data always holds the data

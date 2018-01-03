@@ -287,7 +287,6 @@ class EnterBlock:
                 messagebox.showerror("Error", "Rent Error: Incorrect Format")
                 self.enter = False
 
-
             if self.enter == True:
                 self.ow2file(self.filename,self.fieldnames,[self.firstname,self.lastname,self.email,self.phone,self.building,self.unit,self.datein,self.dateout,self.rent])
                 self.firstname_entry.delete(0, END)

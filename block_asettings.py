@@ -99,14 +99,6 @@ class ASettingsBlock:
                 break
 
 
-            # self.avail_data = []
-            # for build in self.dashboard.e.buildings:
-            #     self.avail_data.append(self.dashboard.data.loc[self.dashboard.data['Building'] == build])
-            # for idx,df in enumerate(self.avail_data):
-            #     print(df['Date In'])
-            #     if df['Date In'][0] != '':
-            #         self.avail_data[idx] = df.loc[(self.dashboard.t.create_date(df['Date In']) >= self.dashboard.t.create_date(self.starttime))]
-
             # Add two columns to data frame with dates as integers
             date1 = data['Date In'].tolist()
             for idx,date in enumerate(date1):
