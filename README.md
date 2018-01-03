@@ -1,9 +1,9 @@
-Preliminary Stages
-Property Rental Management 
-James Stevick
+Preliminary Stages  
+Property Rental Management    
+James Stevick  
 
-Tkinter Dashboard
-Written for Python 3
+Tkinter Dashboard  
+Written for Python 3  
 
 # preliminary_stages
 Dashboard interface for managing property rentals
