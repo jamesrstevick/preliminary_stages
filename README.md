@@ -16,8 +16,9 @@ Run Dashboard.py
 2. Install the following package(s):
   * matplotlib
   * numpy
-  * pandas
-  NOTE: To install, enter python environment in terminal by typing "python", then type "pip install ***package name***", then exit environment by typing "exit()"
+  * pandas  
+  
+NOTE: To install, enter python environment in terminal by typing "python", then type "pip install ***package name***", then exit environment by typing "exit()"  
 3. Pull all files from github.
 
 ## Contact:
